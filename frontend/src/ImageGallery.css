@@ -1,0 +1,129 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #282a2f;
+  }
+  
+  .container {
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .title {
+  color: #fffefe;
+  margin-bottom: 20px;
+  }
+  
+  .gallery-thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  }
+  
+  .thumbnail {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  }
+  
+  .thumbnail:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .thumbnail img {
+  width: 80px;
+  height: auto;
+  display: block;
+  }
+  
+  .main-view {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  }
+  
+  .selected-card {
+  display: flex;
+  border: 1px solid #282a2f;
+  border-radius: 5px;
+  overflow: hidden;
+  max-width: 800px;
+  margin-top: 20px;
+  }
+  
+  .card-img-wrapper {
+  width: 50%;
+  }
+  
+  .card-img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .card-img img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  }
+  
+  .card-details {
+  padding: 20px;
+  width: 50%;
+  overflow-y: auto;
+  }
+  
+  .card-title {
+  margin: 0 0 10px;
+  color: #fffefe;
+  font-size: 18px;
+  }
+  
+  .metadata {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  }
+  
+  .metadata li {
+  margin-bottom: 10px;
+  color: #d4cfcf;
+  }
+  
+  .button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  }
+  
+  .load-more-btn,
+  .download-btn {
+  padding: 10px;
+  background-color: #09ff57;
+  color: #121111;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  }
+  
+  .load-more-btn:hover,
+  .download-btn:hover {
+  background-color: #0056b3;
+  }
+  
+  /* Scrollbar Styles */
+  .card-details::-webkit-scrollbar {
+  display: none;
+  }
+  
