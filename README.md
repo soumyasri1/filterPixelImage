@@ -59,3 +59,13 @@ HOW TO RUN:
 8.npm install
 9.npm run dev
 10.Project starts from localhost:3000
+
+# Images 
+![image](https://github.com/soumyasri1/filterPixelImage/assets/31533704/2bd07700-b5ff-4a66-bf90-0f72c05ced23)
+
+# Exif data
+![image](https://github.com/soumyasri1/filterPixelImage/assets/31533704/cc029e1c-c50b-416e-a1c2-58337b8c38df)
+
+![image](https://github.com/soumyasri1/filterPixelImage/assets/31533704/0985b478-3f11-4d3a-be84-15774cdd20c7)
+
+
